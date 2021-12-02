@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container>"
+        
+       <form action="">
+        <div class="row">
+        <h1>Contact Us Form</h1>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="name">Name <span>*</span></label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="myname" id="name"  placeholder="Your Name..." required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="phone">Phone Number <span>*</span></label>
+            </div>
+            <div class="col-75">
+                <input type="number" name="myphno" id="phone" required placeholder="Phone No">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Email Address <span>*</span></label> 
+            </div>
+            <div class="col-75">
+                <input type="email" name="myemail" id="email" required placeholder="Your Email...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="comments">Comments <span>*</span></label>
+            </div>
+            <div class="col-75">
+                <textarea type="text" name="mycomments" id="comments"  style="height:200px" required placeholder="Write Something..."> </textarea>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country <span>*</span></label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="india">India</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+            <input type="radio" value="">Salaried</input>
+            <input type="radio" value="">Own Business</input>
+        </div> 
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>       
+        
+      </form>
+    </div>
+</body>
+</html>
+
+
+  
